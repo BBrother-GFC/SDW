@@ -1,0 +1,8 @@
+a = "stable"
+b = "Stable"
+c = "sd"
+d = "diffusion"
+D = "Diffusion"
+w = "webui"
+st = "stable-diffusion-webui"
+ca = "camenduru"
