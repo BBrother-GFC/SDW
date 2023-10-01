@@ -9,6 +9,7 @@ from modules import initialize
 from pathlib import Path
 
 ngrok_use = False
+ngrokToken = ""
 
 # 打开并执行txt文件
 with open('StartBianLiang.txt', 'r') as file:
