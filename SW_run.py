@@ -2,7 +2,7 @@
 Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
 Date: 2023-09-30 13:25:39
 LastEditors: BBrother-GFC 3347951573@qq.com
-LastEditTime: 2023-10-01 11:00:08
+LastEditTime: 2023-10-01 12:34:52
 FilePath: \AI绘图配置\SDW\SW_run.py
 Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 '''
@@ -46,7 +46,7 @@ try:
     # 在 try 块中运行 /root/main/webui.py，并将输出重定向到日志文件
     with open(log_file, 'a') as log_file_handle, open(url_file, 'a') as url_file_handle:
         #'--skip-torch-cuda-test', '--xformers', '--enable-insecure-extension-access', '--gradio-queue', '--disable-nan-check', '--no-hashing', '--opt-split-attention', '--disable-safe-unpickle', '--api', '--theme', 'dark', '--disable-console-progressbars', '--administrator', '--upcast-sampling', ' --enable-insecure-extension-access', '--multiple'
-        process = subprocess.Popen(['python', '/root/main/webui.py', '--api', '--disable-safe-unpickle', '--enable-insecure-extension-access', '--no-download-sd-model', '--no-half-vae', '--xformers', '--disable-console-progressbars', '--theme', 'dark', '--upcast-sampling', '--device-id=0,1'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True)
+        process = subprocess.Popen(['python', '/root/main/webui.py', '--api', '--disable-safe-unpickle', '--enable-insecure-extension-access', '--no-download-sd-model', '--no-half-vae', '--xformers', '--disable-console-progressbars', '--theme', 'dark', '--upcast-sampling', '--device-id=0'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True)
 
         url_pattern = re.compile(r'https?://\S+')
 
