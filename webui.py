@@ -25,6 +25,15 @@ exec(cleaned_code)
 ngrokTokenFile='/root/main/Authtoken.txt' # 非必填 存放ngrokToken的文件的路径
 
 def ngrok_start(ngrokTokenFile: str, port: int, address_name: str, should_run: bool):
+    """
+    此函数用于启动ngrok服务，使用指定的令牌文件、端口、地址名称和是否运行服务。
+    如果should_run标志设置为False，则函数将跳过启动ngrok。
+    如果ngrokTokenFile存在，函数将读取文件中的令牌并使用它来启动ngrok服务。
+    它还将设置默认的认证令牌并禁用监视线程。
+    然后，它将获取现有的通道，如果为0，则将创建一个与指定端口和绑定TLS的新的通道。
+    如果已经有通道，则将使用第一个通道。
+    它将打印通道的公共URL。
+    """
     if not should_run:
         print('Skipping ngrok start')
         return
