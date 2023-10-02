@@ -4,7 +4,7 @@ import logging
 import os
 
 # 检查是否存在 logs.txt 文件，如果存在则删除它
-log_file = '/root/main/logs.txt'
+log_file = '/content/logs.txt'
 if os.path.exists(log_file):
     os.remove(log_file)
 
