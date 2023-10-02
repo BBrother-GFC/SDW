@@ -119,8 +119,35 @@ def run_git_clone(repo_url, destination):
 extensions_path = "/content/extensions"
 
 extensions_to_clone = [
+    # (f"https://github.com/deforum-art/deforum-for-automatic1111-webui", f"{extensions_path}/deforum-for-automatic1111-webui"),
+    # (f"https://github.com/deforum-art/sd-webui-deforum", f"{extensions_path}/sd-webui-deforum"),
+    # (f"https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper", f"{extensions_path}/Stable-Diffusion-Webui-Civitai-Helper"),
+    # (f"https://github.com/Mikubill/sd-webui-controlnet", f"{extensions_path}/sd-webui-controlnet"),
+    # (f"https://github.com/fkunn1326/openpose-editor", f"{extensions_path}/openpose-editor"),
+    # (f"https://github.com/camenduru/stable-diffusion-webui-huggingface", f"{extensions_path}/stable-diffusion-webui-huggingface"),
+    # (f"https://github.com/kohya-ss/sd-webui-additional-networks", f"{extensions_path}/sd-webui-additional-networks"),
+    # (f"https://github.com/hnmr293/posex", f"{extensions_path}/posex"),
+    # (f"https://github.com/nonnonstop/sd-webui-3d-open-pose-editor", f"{extensions_path}/sd-webui-3d-open-pose-editor"),
+    # (f"https://github.com/camenduru/sd-webui-tunnels", f"{extensions_path}/sd-webui-tunnels"),
+    # (f"https://github.com/etherealxx/batchlinks-webui", f"{extensions_path}/batchlinks-webui"),
+    # (f"https://github.com/catppuccin/stable-diffusion-webui", f"{extensions_path}/stable-diffusion-webui-catppuccin"),
+    # (f"https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg", f"{extensions_path}/stable-diffusion-webui-rembg"),
+    # (f"https://github.com/ashen-sensored/stable-diffusion-webui-two-shot.git", f"{extensions_path}/stable-diffusion-webui-two-shot"),
+    # (f"https://github.com/thomasasfk/sd-webui-aspect-ratio-helper", f"{extensions_path}/sd-webui-aspect-ratio-helper"),
+    # (f"https://github.com/Bing-su/adetailer", f"{extensions_path}/adetailer"),
+    # (f"https://github.com/mcmonkeyprojects/sd-dynamic-thresholding", f"{extensions_path}/sd-dynamic-thresholding"),
+    # (f"https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards", f"{extensions_path}/stable-diffusion-webui-wildcards"),
+    # (f"https://github.com/continue-revolution/sd-webui-segment-anything", f"{extensions_path}/sd-webui-segment-anything"),
+    (f"https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN", f"{extensions_path}/stable-diffusion-webui-localization-zh_CN"),
+    (f"https://github.com/hanamizuki-ai/stable-diffusion-webui-localization-zh_Hans", f"/extensions/stable-diffusion-webui-localization-zh_Hans"),
+    (f"https://github.com/zanllp/sd-webui-infinite-image-browsing", f"{extensions_path}/sd-webui-infinite-image-browsing"),
+    (f"https://github.com/s0md3v/roop", f"{extensions_path}/roop"),
+    (f"https://github.com/Physton/sd-webui-prompt-all-in-one", f"{extensions_path}/sd-webui-prompt-all-in-one"),
+    (f"https://github.com/etherealxx/batchlinks-webui", f"{extensions_path}/extensions/batchlinks-webui"), 
     (f"https://github.com/journey-ad/sd-webui-bilingual-localization", f"{extensions_path}/sd-webui-bilingual-localization"),
     (f"https://github.com/Bobo-1125/sd-webui-oldsix-prompt-dynamic", f"{extensions_path}/sd-webui-oldsix-prompt-dynamic"),
+    (f"https://github.com/adieyal/sd-dynamic-prompts", f"{extensions_path}/sd-dynamic-prompts"),
+
     
 ]
 
