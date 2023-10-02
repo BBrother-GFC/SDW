@@ -42,7 +42,6 @@ extensions_to_clone = [
     (f"https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN", f"{extensions_path}/stable-diffusion-webui-localization-zh_CN"),
     (f"https://github.com/hanamizuki-ai/stable-diffusion-webui-localization-zh_Hans", f"/extensions/stable-diffusion-webui-localization-zh_Hans"),
     (f"https://github.com/zanllp/sd-webui-infinite-image-browsing", f"{extensions_path}/sd-webui-infinite-image-browsing"),
-    (f"https://github.com/s0md3v/roop", f"{extensions_path}/roop"),
     (f"https://github.com/Physton/sd-webui-prompt-all-in-one", f"{extensions_path}/sd-webui-prompt-all-in-one"),
     (f"https://github.com/journey-ad/sd-webui-bilingual-localization", f"{extensions_path}/sd-webui-bilingual-localization"),
     (f"https://github.com/Bobo-1125/sd-webui-oldsix-prompt-dynamic", f"{extensions_path}/sd-webui-oldsix-prompt-dynamic"),
